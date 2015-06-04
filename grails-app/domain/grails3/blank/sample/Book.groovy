@@ -9,6 +9,6 @@ class Book {
     static constraints = {
         title blank: false
         content blank: true
-        remarks()
+        remarks() // default is 'blank: true'
     }
 }
